@@ -14,4 +14,9 @@ Languages Used and Methods being Used
 - MY SQL, JQuery, JAVASCRIPT 
 - Go daddy Hosting Services 
 - Google Maps APIs 
--
+
+Current Development goals
+
+- MongoDB Migration
+- Ruby on Rails
+- Migrate AWS Services 
