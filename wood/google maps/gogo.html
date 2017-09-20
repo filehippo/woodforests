@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+      
+      
+      
+      
+    <style>
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:20px;
+}
+
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 55%;
+    padding-top: 30px;
+    position: relative;
+}
+      </style>
+      
+      
+      
+      <link href='http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700' rel='stylesheet' type='text/css'>
+      
+      
+  </head>
+    
+    
+    
+  <body>
+    
+      
+      	<div class="container">
+    <div id="map_container"></div>
+	  <div id="map"></div>
+	</div>	
+      
+    
+    
+
+       <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 29.8072, lng: -95.1601},
+          zoom: 17
+        });
+      }
+      </script>
+      
+      
+      
+      
+      
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRL0d85V_2u2KVqDDHnxesTqQVGRU2xZ0&callback=initMap"
+    async defer></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/noisy/1.2/jquery.noisy.min.js"></script>
+      
+  </body>
+</html>
